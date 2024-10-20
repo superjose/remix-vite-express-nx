@@ -1,0 +1,32 @@
+{
+  // "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2022",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "traceResolution": true,
+    "paths": {
+      // This is inexistent, add it to the project
+      "@myorg/ui": ["libs/ui/src/index.ts"],
+
+    }
+  },
+  "include": [
+    "vite.config.ts",
+    "server.ts",
+    "lingui.config.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "app/types/*.d.ts"
+  ]
+}

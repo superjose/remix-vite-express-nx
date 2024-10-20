@@ -1,0 +1,15 @@
+@view-transition {
+  navigation: auto;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+::view-transition-old {
+  animation: fadeOut 0.3s forwards;
+}

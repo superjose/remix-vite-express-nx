@@ -1,0 +1,27 @@
+# To connect PG Admin use:
+# host.docker.internal
+# postgres
+# (username) postgres
+# (password) postgres
+version: '3.9'
+# Define services.
+services:
+  # Service for the 'echo' Go backend.
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - "8500:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@a.com
+      PGADMIN_DEFAULT_PASSWORD: admin

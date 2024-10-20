@@ -1,0 +1,261 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-03-30 08:29+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: es\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/routes/_index/unauthenticated.tsx:152
+msgid "<0>Got lost </0>setting up service accounts, roles, and permissions—it was a <1>nightmare.</1>"
+msgstr "<0>Me perdí </0>configurando cuentas de servicio, roles y permisos—fue una <1>pesadilla.</1>"
+
+#: app/components/templates/ProjectUpsert/index.tsx:272
+#: app/components/templates/ProjectUpsert/index.tsx:273
+msgid "A Pulumi Project Used to Deploy a Golang application"
+msgstr "Un proyecto de Pulumi utilizado para desplegar una aplicación Golang"
+
+#: app/components/templates/ProjectUpsert/index.tsx:253
+msgid "Advanced Configuration"
+msgstr "Configuración avanzada"
+
+#: app/routes/project.$projectId.tsx:135
+msgid "Artifact Registry Repository Name"
+msgstr "Nombre del repositorio del registro de artefactos"
+
+#: app/routes/project.$projectId.tsx:131
+msgid "Artifact Registry Service Name"
+msgstr "Nombre del servicio del registro de artefactos"
+
+#: app/components/templates/ProjectUpsert/index.tsx:111
+msgid "Choose the service you want to deploy to:"
+msgstr "Elija el servicio al que desea desplegar:"
+
+#: app/components/templates/ProjectUpsert/index.tsx:146
+msgid "Choosing Cloud Run will enable the following services:"
+msgstr "Elegir Cloud Run habilitará los siguientes servicios:"
+
+#: app/components/organisms/Explanation/index.tsx:28
+msgid "CLI Installs"
+msgstr "Instalaciones CLI"
+
+#: app/routes/project.$projectId.tsx:139
+msgid "Cloud Run Admin Service Name"
+msgstr "Nombre del servicio de administración de Cloud Run"
+
+#: app/routes/project.$projectId.tsx:143
+msgid "Cloud Run Service Name"
+msgstr "Nombre del servicio de Cloud Run"
+
+#: app/components/organisms/Explanation/index.tsx:31
+msgid "Configs"
+msgstr "Configuraciones"
+
+#: app/routes/anon.project.create.tsx:61
+#: app/routes/project.create/route.tsx:54
+msgid "Create a New Project"
+msgstr "Crear un nuevo proyecto"
+
+#: app/components/templates/ProjectUpsert/index.tsx:489
+msgid "Create scripts"
+msgstr "Crear scripts"
+
+#: app/components/templates/ProjectUpsert/index.tsx:96
+msgid "deploud"
+msgstr "deploud"
+
+#: app/components/organisms/NavbarBanner/index.tsx:60
+msgid "Deploy now"
+msgstr "Desplegar ahora"
+
+#: app/routes/_index/unauthenticated.tsx:472
+msgid "Do you have a refund policy?"
+msgstr "¿Tiene una política de reembolso?"
+
+#: app/routes/project.$projectId.tsx:127
+msgid "Docker Image Name"
+msgstr "Nombre de la imagen de Docker"
+
+#: app/routes/project.$projectId.tsx:152
+msgid "Dockerfile Relative Path"
+msgstr "Ruta relativa del Dockerfile"
+
+#: app/routes/project.$projectId.tsx:87
+#: app/routes/project.$projectId.tsx:180
+msgid "Download Project Scripts"
+msgstr "Descargar scripts del proyecto"
+
+#: app/components/templates/AuthForm/index.tsx:40
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: app/components/organisms/Explanation/index.tsx:25
+msgid "Files"
+msgstr "Archivos"
+
+#: app/routes/project.$projectId.tsx:147
+msgid "GCP Location"
+msgstr "Ubicación de GCP"
+
+#: app/routes/project.$projectId.tsx:110
+msgid "GCP Project ID"
+msgstr "ID del proyecto de GCP"
+
+#: app/routes/project.$projectId.tsx:114
+msgid "GCP Service Account Name"
+msgstr "Nombre de la cuenta de servicio de GCP"
+
+#: app/routes/project.$projectId.tsx:105
+msgid "Google Cloud Details"
+msgstr "Detalles de Google Cloud"
+
+#: app/routes/_index/unauthenticated.tsx:463
+msgid "Google Cloud. We're working on supporting AWS, and Azure."
+msgstr "Google Cloud. Estamos trabajando en el soporte de AWS y Azure."
+
+#: app/routes/_index/unauthenticated.tsx:114
+msgid "Had to deal with <0>obscure and obtuse errors</0> like \"exec format error\" or \"Cloud Run Admin API has not been used in project..."
+msgstr "Tuve que lidiar con <0>errores oscuros y obtusos</0> como \"error de formato de ejecución\" o \"La API de administración de Cloud Run no se ha utilizado en el proyecto..."
+
+#: app/routes/_index/unauthenticated.tsx:90
+msgid "Had to spend <0>7+ hours </0><1>navigating through </1><2>fragmented and outdated documentation </2>to upload to Google Cloud Run"
+msgstr "Tuve que pasar <0>7+ horas </0><1>navegando a través de </1><2>documentación fragmentada y desactualizada </2>para subir a Google Cloud Run"
+
+#: app/routes/_index/unauthenticated.tsx:443
+msgid "How does pricing work?"
+msgstr "¿Cómo funciona el precio?"
+
+#: app/routes/_index/unauthenticated.tsx:386
+msgid "How is this different from me using IaaC tools like Pulumi and Terraform?"
+msgstr "¿Cómo es esto diferente de que yo use herramientas de IaaC como Pulumi y Terraform?"
+
+#: app/components/organisms/Explanation/index.tsx:19
+msgid "How this works"
+msgstr "Cómo funciona esto"
+
+#: app/routes/project.$projectId.tsx:150
+msgid "Image Tag"
+msgstr "Etiqueta de imagen"
+
+#: app/routes/_index/unauthenticated.tsx:452
+msgid "Is it a one time fee?"
+msgstr "¿Es una tarifa única?"
+
+#: app/routes/project.$projectId.tsx:95
+msgid "Language"
+msgstr "Idioma"
+
+#: app/routes/_index/unauthenticated.tsx:419
+msgid "LLMs often ignore your existing infrastructure. Gemini is improving this, but it’s challenging to know the right questions, and it might miss a needed service."
+msgstr "LLMs a menudo ignoran su infraestructura existente. Gemini está mejorando esto, pero es difícil saber las preguntas correctas, y podría omitir un servicio necesario."
+
+#: app/components/organisms/NavbarBanner/index.tsx:66
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: app/components/organisms/Footer/index.tsx:41
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: app/routes/project.$projectId.tsx:90
+msgid "Project Details"
+msgstr "Detalles del proyecto"
+
+#: app/routes/project.$projectId.tsx:93
+msgid "Project Name"
+msgstr "Nombre del proyecto"
+
+#: app/routes/project.$projectId.tsx:99
+msgid "Project Stack"
+msgstr "Pila del proyecto"
+
+#: app/routes/project.$projectId.tsx:157
+msgid "Pulumi Account Details"
+msgstr "Detalles de la cuenta de Pulumi"
+
+#: app/routes/project.$projectId.tsx:165
+msgid "Pulumi Admin Role Name"
+msgstr "Nombre del rol de administrador de Pulumi"
+
+#: app/routes/project.$projectId.tsx:169
+msgid "Pulumi Project Path"
+msgstr "Ruta del proyecto Pulumi"
+
+#: app/routes/project.$projectId.tsx:161
+msgid "Pulumi Service Account Key Path"
+msgstr "Ruta de la clave de la cuenta de servicio de Pulumi"
+
+#: app/routes/_index/unauthenticated.tsx:422
+msgid "Scripts may look correct, but they can fail due to overlooked deep configurations."
+msgstr "Los scripts pueden verse correctos, pero pueden fallar debido a configuraciones profundas pasadas por alto."
+
+#: app/components/templates/ProjectUpsert/index.tsx:181
+msgid "Select your Infrastructure as a Code (Iaac) Language"
+msgstr "Seleccione su lenguaje de Infraestructura como Código (Iaac)"
+
+#: app/routes/project.$projectId.tsx:122
+msgid "Service Account Description"
+msgstr "Descripción de la cuenta de servicio"
+
+#: app/routes/project.$projectId.tsx:118
+msgid "Service Account Display Name"
+msgstr "Nombre para mostrar de la cuenta de servicio"
+
+#: app/components/organisms/Footer/index.tsx:38
+msgid "Terms of use"
+msgstr "Términos de uso"
+
+#: app/routes/project.$projectId.download.tsx:28
+msgid "The project was not found"
+msgstr "No se encontró el proyecto"
+
+#: app/routes/auth.sign-in-callback/route.tsx:28
+msgid ""
+"There was a problem validating your email. Please submit a new one.\n"
+"Use the same browser you've requested it from."
+msgstr ""
+"Hubo un problema al validar su correo electrónico. Por favor, envíe uno nuevo.\n"
+"Utilice el mismo navegador desde el que lo solicitó."
+
+#: app/routes/auth.sign-in-callback/route.tsx:79
+msgid "There was a problem verifying your email. Please submit a new one. Use the same browser you've requested it from."
+msgstr "Hubo un problema al verificar su correo electrónico. Por favor, envíe uno nuevo. Utilice el mismo navegador desde el que lo solicitó."
+
+#: app/routes/auth.sign-in-callback/route.tsx:51
+msgid "There was a problem verifying your email. Please submit a new one.\\n Use the same browser you've requested it from."
+msgstr "Hubo un problema al verificar su correo electrónico. Por favor, envíe uno nuevo.\\n Utilice el mismo navegador desde el que lo solicitó."
+
+#: app/routes/auth.sign-in-callback/route.tsx:106
+msgid "Wait while we are loading"
+msgstr "Espere mientras cargamos"
+
+#: app/routes/_index/unauthenticated.tsx:462
+msgid "What cloud providers do you support?"
+msgstr "¿Qué proveedores de nube soportan?"
+
+#: app/routes/_index/unauthenticated.tsx:403
+msgid "Wouldn't AI make this worthless?"
+msgstr "¿No haría esto que la IA no tenga valor?"
+
+#: app/routes/_index/unauthenticated.tsx:453
+msgid "Yes. No subscriptions. Once you generate your code with Deploud, your code is yours to keep. We don't allow you to resell it, but we allow you to modify it, and extend it as you need."
+msgstr "Sí. Sin suscripciones. Una vez que genera su código con Deploud, su código es suyo para conservar. No le permitimos revenderlo, pero le permitimos modificarlo y extenderlo según lo necesite."
+
+#: app/routes/_index/unauthenticated.tsx:473
+msgid "Yes. We have 30 days refund policy."
+msgstr "Sí. Tenemos una política de reembolso de 30 días."
+
+#: app/routes/_index/unauthenticated.tsx:444
+msgid "You buy a Deploud Project. You're able to change and edit as many times as you want."
+msgstr "Compras un proyecto de Deploud. Puedes cambiar y editar tantas veces como quieras."
+
+#: app/routes/_index/unauthenticated.tsx:416
+msgid "You must be very specific in your configuration requests."
+msgstr "Debe ser muy específico en sus solicitudes de configuración."

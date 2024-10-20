@@ -1,0 +1,51 @@
+{
+  "name": "remix-app-vite",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/remix-app-vite",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project remix-app-vite --web",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun server.ts",
+        "cwd": "apps/remix-app-vite",
+        "envFile": "apps/remix-app-vite/.env"
+      }
+    },
+    "routes": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx remix routes --json",
+        "cwd": "apps/remix-app-vite"
+      }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc server.ts --noEmit --traceResolution",
+        "cwd": "apps/remix-app-vite"
+      }
+    },
+    "build": {
+      "executor": "@nx/remix:build",
+      "options": {
+        "outputPath": "{projectRoot}"
+      }
+    },
+    "serve": {
+      "executor": "@nx/remix:serve",
+      "options": {}
+    },
+
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{workspaceRoot}/coverage/apps/myapp"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../../coverage/apps/myapp"
+      }
+    },
+  }
+}
